@@ -49,7 +49,9 @@ body {
 
 .home {
     height: 100vh;
-    background: url();
+    background: url('images/home.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -184,5 +186,5 @@ body {
 }
 
 .home-sci a:hover::before {
-
+    width: 100%;
 }
